@@ -10,7 +10,7 @@ spec:
     targetRevision: main
     path: declarative_approach/online_shop
   destination:
-    server: https://kubernetes.default.svc/  # ArgoCD in-cluster API
+    server: https://kubernetes.default.svc  # ArgoCD in-cluster API
     namespace: default
   syncPolicy:
     automated:
